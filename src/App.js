@@ -10,15 +10,16 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App container">
-    
-     <h3 className="d-flex justify-content-center m-3">
-        React JS Front END
-     </h3> 
-        <img src={logo} className="App-logo" alt="logo" />
+      
         <Route exact path="/">
           <Department />
         </Route>
     </div>
+    <Switch>
+        <Route path='/home' component={Home}/> 
+        <Route path='/department' component={Department}/>
+        <Route path='/employee' component={Employee}/>
+      </Switch>
     </BrowserRouter>
   );
 }
