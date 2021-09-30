@@ -1,4 +1,40 @@
+.imgLogo{
+  height: 24vmin;
+  width: 24vmin;
+  position:fixed;
+  left: 4vmin;
+  top: 1vmin;
+}
+
+.space { 
+  margin-top: 250px; 
+}
+
 .txtUsuario{
-    color: white;
-    display:inline-block;
-  }
+  display:inline-block;
+  background-color: 'transparent';
+}
+
+.btnIniciar{
+  background-color: 'transparent';
+}
+
+.fondo{
+background-image: url(./imagen.jpg);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height:100%;  /* responsive height */
+position: fixed;
+top: 0;
+left: 0;
+}
+h3 {
+  color: white !important;
+  font-size: 4em;
+}
+h4{
+  color: white !important;
+}
