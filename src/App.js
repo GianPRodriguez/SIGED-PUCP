@@ -1,5 +1,7 @@
 import logo from './A.jpg';
 import './App.css';
+import { API } from 'aws-amplify';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import {Home} from './Home';
 import {Department} from './Department';
 import {Employee} from './Employee';
@@ -20,8 +22,9 @@ function App() {
         <Route path='/department' component={Department}/>
         <Route path='/employee' component={Employee}/>
       </Switch>
+      <AmplifySignOut />
     </BrowserRouter>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
