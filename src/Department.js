@@ -55,7 +55,7 @@ export class Department extends Component{
           }
           if(find==0){
             this.setState({
-                condition:"El usuario ingresado es incorrecto"});
+                condition:"El usuario ingresado es incorrecto, pruebe otra vez"});
           }
         }
        }
