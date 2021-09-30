@@ -20,7 +20,7 @@
 }
 
 .fondo{
-background-image: url(./imagen.jpg);
+background-image: url('https://s03.s3c.es/imag/_v0/770x420/6/e/1/PUCP.jpg');
 
 background-repeat: no-repeat;
 background-position: center;
